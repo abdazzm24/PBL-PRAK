@@ -34,21 +34,21 @@ func main() {
 	fmt.Println(nilaiMahasiswa)
 
 	// Membaca data dengan pengecekan keberadaan
-	nilai, ada := nilaiMahasiswa["Raihan"]
+	nilai, ada := nilaiMahasiswa["Rehan"]
 
 	if ada {
-		fmt.Println("Nilai Raihan:", nilai)
+		fmt.Println("Nilai Rehan:", nilai)
 	} else {
-		fmt.Println("Data Raihan tidak ditemukan")
+		fmt.Println("Data Rehan tidak ditemukan")
 	}
 
 	// Mengecek mahasiswa yang tidak ada
-	nilai, ada = nilaiMahasiswa["Andi"]
+	nilai, ada = nilaiMahasiswa["Diaul"]
 
 	if ada {
-		fmt.Println("Nilai Andi:", nilai)
+		fmt.Println("Nilai Diaul:", nilai)
 	} else {
-		fmt.Println("Data Andi tidak ditemukan")
+		fmt.Println("Data Diaul tidak ditemukan")
 	}
 
 	// Menghapus data dari map
